@@ -5,49 +5,40 @@ $(document).ready(function() {
 
     var result= parseInt($("#transport").val());
     score += result;
-    console.log(score);
     var result= parseInt($("#season").val());
     score += result;
-    console.log(score);
     var result= parseInt($("#weather").val());
     score += result;
-    console.log(score);
     var result= parseInt($("#nightlife").val());
     score += result;
-    console.log(score);
     var result= parseInt($("#culture").val());
     score += result;
-    console.log(score);
     var result= parseInt($("#ease").val());
     score += result;
-    console.log(score);
     var result= parseInt($("#kids").val());
     score += result;
-    console.log(score);
     result = parseInt($("input:radio[name=celebs]:checked").val());
     score += result;
-    console.log(score)
+    console.log(score);
 
     if (score <= 30) {
+      $(".resultsHead").show();
       $(".miami").show();
     } else if (score > 30 && score <= 60) {
+      $(".resultsHead").show();
       $(".portland").show();
     } else if (score > 60 && score <= 90) {
+      $(".resultsHead").show();
       $(".newYork").show();
     } else if (score > 90 && score <= 120) {
-      $(".tokyo").show();
-    } else if (score = NaN) {
-      alert("Please fill out our surevey to get a destination recommendation.")
+      $(".resultsHead").show();
+      $(".tokyoContainer").show();
+      $(".tokyo-content").show();
     } else {
-
+        alert("Please fill out our surevey to get a destination recommendation.")
+        location.reload();
     }
-    // if (score < 60) {
-    //   $(".conservative").show();
-    // } else if (score === 60) {
-    //   $(".independent").show();
-    // } else {
-    //   $(".liberal").show();
-    // }
+
 
 
     event.preventDefault();

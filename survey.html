@@ -93,48 +93,133 @@
           <h3>Pick a celebrity:</h3>
           <div class="radio-inline">
             <label>
-              <input type="radio" name="celebs" value="15" id="helloKitty"><label for="helloKitty">Hello Kitty</label>
-              <!-- <img class="radioImage" src="img/hillary.jpg" alt="Picture of hillary" /> -->
+              <input type="radio" name="celebs" value="15" id="helloKitty">
+              <img class="radioImage" src="img/hellokitty.gif" alt="GIF of Hello Kitty"/><br>
+              <label class="radioLab" for="helloKitty">Hello Kitty</label>
             </label>
           </div>
           <div class="radio-inline">
             <label>
-              <input type="radio" name="celebs" value="9" id="jayZ"><label for="jayZ">Jay-Z</label>
-              <!-- <img class="radioImage" src="img/bernie.gif" alt="Picture of bernie" /> -->
+              <input type="radio" name="celebs" value="9" id="jayZ">
+              <img class="radioImage" src="img/jay.gif" alt="GIF of JAY-Z"/><br>
+              <label for="jayZ">Jay-Z</label>
             </label>
           </div>
           <div class="radio-inline">
             <label>
-              <input type="radio" name="celebs" value="4" id="fred"><label for="fred">Fred Armisen</label>
-              <!-- <img class="radioImage" src="img/donald.gif" alt="Picture of donald" /> -->
+              <input type="radio" name="celebs" value="4" id="fred">
+              <img class="radioImage" src="img/fred.gif" alt="GIF of Fred Armisen"/><br>
+              <label for="fred">Fred Armisen</label>
             </label>
           </div>
           <div class="radio-inline">
             <label>
-              <input type="radio" name="celebs" value="0" id="dj"><label for="dj">DJ Khaled</label>
-              <!-- <img class="radioImage" src="img/ted.gif" alt="Picture of ted" /> -->
+              <input type="radio" name="celebs" value="0" id="dj">
+              <img class="radioImage" src="img/dj.gif" alt="GIF of DJ Khaled"/><br>
+              <label for="dj">DJ Khaled</label>
             </label>
           </div>
         </div>
         <button type="submit" class="btn">Submit</button>
       </form>
       <div class="results1">
-        <h3>Here are your results <span class="name"></span> on: <span class="date"></span></h3>
-        <div class="miami">
-          <h3>You should go to MIAMI.</h3>
-          <!-- <img class="resultsImg" src="img/gop.jpg" alt="republicans logo"/> -->
+        <h3 class="resultsHead">Here are your results <span class="name"></span> on: <span class="date"></span></h3>
+        <div class="miamiContainer">
+          <div class="jumbotron miami">
+            <h3>You should go to MIAMI.</h3>
+            <!-- <img class="resultsImg" src="img/gop.jpg" alt="republicans logo"/> -->
+          </div>
+          <div class="container miami-content"
+            <div class="row front-content">
+              <div class="col-sm-4 text-blocks">
+                <h2>Check Out Miami</h2>
+                <p>Find out more information about Miami and Florida here. Use these resources to help you decide if Miami is really the place for you.</p>
+                <a href="https://en.wikipedia.org/wiki/Miami"><span class="glyphicon glyphicon-road"></span></a>
+              </div>
+              <div class="col-sm-4 text-blocks">
+                <h2>Book Here</h2>
+                <p>Ready to go? Well we got you covered, just <a href="https://www.expedia.com/Miami.d178286.Destination-Travel-Guides?gclsrc=aw.ds&gclid=CNPx19vB3MsCFUZrfgodtRgMsw&langid=1033&destinationId=178286&semcid=13172-1&kword=+Miami_+travel%21m.ZzZz.3340003068971.0.68374881280.%2Bmiami+%2Btravel.+miami_+travel&">click here</a> to check out some great deals on airfare and hotels.</p>
+                <a href="https://www.expedia.com/Miami.d178286.Destination-Travel-Guides?gclsrc=aw.ds&gclid=CNPx19vB3MsCFUZrfgodtRgMsw&langid=1033&destinationId=178286&semcid=13172-1&kword=+Miami_+travel%21m.ZzZz.3340003068971.0.68374881280.%2Bmiami+%2Btravel.+miami_+travel&"><span class="glyphicon glyphicon-user"></span></a>
+              </div>
+              <div class="col-sm-4 text-blocks">
+                <h2>Not Miami?</h2>
+                <p>Maybe Miami isn't your thing, or maybe you just want to take our awesome survey again. Just <a href="survey.html">click here</a> to try again.</p>
+                <a href="survey.html"><span class="glyphicon glyphicon-education"></span></a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="portland">
-          <h3>You should go to PORTLAND.</h3>
-          <!-- <img class="resultsImg" src="img/dems.png" alt="democrats logo"/> -->
+        <div class="portlandContainer">
+          <div class="jumbotron portland">
+            <h3>You should go to PORTLAND.</h3>
+            <!-- <img class="resultsImg" src="img/dems.png" alt="democrats logo"/> -->
+          </div>
+          <div class="row front-content">
+            <div class="col-sm-4 text-blocks">
+              <h2>Check Out Japan</h2>
+              <p>Find out more information about Japan and Tokyo here. Use these resources to help ypu decide if Tokyo is really the place for you.</p>
+              <a href="https://en.wikipedia.org/wiki/Tokyo"><span class="glyphicon glyphicon-road"></span></a>
+            </div>
+            <div class="col-sm-4 text-blocks">
+              <h2>Book Here</h2>
+              <p>Ready to go? Well we got you covered, just <a href="https://www.expedia.com/Tokyo.d179900.Destination-Travel-Guides?gclid=CKD2pf2-3MsCFU9cfgodMd0HkA&langid=1033&destinationId=179900&semcid=13172-1&kword=travel_to_tokyo%21e.ZzZz.3510001096527.0.43206860844.travel+to+tokyo.travel_to_tokyo&">click here</a> to check out some great deals on airfare and hotels.</p>
+              <a href="https://www.expedia.com/Tokyo.d179900.Destination-Travel-Guides?gclid=CKD2pf2-3MsCFU9cfgodMd0HkA&langid=1033&destinationId=179900&semcid=13172-1&kword=travel_to_tokyo%21e.ZzZz.3510001096527.0.43206860844.travel+to+tokyo.travel_to_tokyo&"><span class="glyphicon glyphicon-user"></span></a>
+            </div>
+            <div class="col-sm-4 text-blocks">
+              <h2>Not Tokyo?</h2>
+              <p>Maybe Tokyo isn't your thing, or maybe you just want to take our awesome survey again. Just <a href="survey.html">click here</a> to try again.</p>
+              <a href="survey.html"><span class="glyphicon glyphicon-education"></span></a>
+            </div>
+          </div>
         </div>
-        <div class="newYork">
-          <h3>You should go to NEW YORK.</h3>
-          <!-- <img class="resultsImg" src="img/ind.png" alt="independent logo"> -->
+
+        <div class="newYorkContainer"
+          <div class="jumbotron newYork">
+            <h3>You should go to NEW YORK.</h3>
+            <!-- <img class="resultsImg" src="img/ind.png" alt="independent logo"> -->
+          </div>
+          <div class="row front-content">
+            <div class="col-sm-4 text-blocks">
+              <h2>Check Out Japan</h2>
+              <p>Find out more information about Japan and Tokyo here. Use these resources to help ypu decide if Tokyo is really the place for you.</p>
+              <a href="https://en.wikipedia.org/wiki/Tokyo"><span class="glyphicon glyphicon-road"></span></a>
+            </div>
+            <div class="col-sm-4 text-blocks">
+              <h2>Book Here</h2>
+              <p>Ready to go? Well we got you covered, just <a href="https://www.expedia.com/Tokyo.d179900.Destination-Travel-Guides?gclid=CKD2pf2-3MsCFU9cfgodMd0HkA&langid=1033&destinationId=179900&semcid=13172-1&kword=travel_to_tokyo%21e.ZzZz.3510001096527.0.43206860844.travel+to+tokyo.travel_to_tokyo&">click here</a> to check out some great deals on airfare and hotels.</p>
+              <a href="https://www.expedia.com/Tokyo.d179900.Destination-Travel-Guides?gclid=CKD2pf2-3MsCFU9cfgodMd0HkA&langid=1033&destinationId=179900&semcid=13172-1&kword=travel_to_tokyo%21e.ZzZz.3510001096527.0.43206860844.travel+to+tokyo.travel_to_tokyo&"><span class="glyphicon glyphicon-user"></span></a>
+            </div>
+            <div class="col-sm-4 text-blocks">
+              <h2>Not Tokyo?</h2>
+              <p>Maybe Tokyo isn't your thing, or maybe you just want to take our awesome survey again. Just <a href="survey.html">click here</a> to try again.</p>
+              <a href="survey.html"><span class="glyphicon glyphicon-education"></span></a>
+            </div>
+          </div>
         </div>
-        <div class="tokyo">
-          <h3>You should go to TOKYO.</h3>
-          <!-- <img class="resultsImg" src="img/ind.png" alt="independent logo"> -->
+        <div class="tokyoContainer"
+          <div class="jumbotron tokyo">
+            <h3>You should go to TOKYO.</h3>
+            <!-- <img class="resultsImg" src="img/ind.png" alt="independent logo"> -->
+          </div>
+          <div class="container tokyo-content"
+            <div class="row front-content">
+              <div class="col-sm-4 text-blocks">
+                <h2>Check Out Japan</h2>
+                <p>Find out more information about Japan and Tokyo here. Use these resources to help ypu decide if Tokyo is really the place for you.</p>
+                <a href="https://en.wikipedia.org/wiki/Tokyo"><span class="glyphicon glyphicon-road"></span></a>
+              </div>
+              <div class="col-sm-4 text-blocks">
+                <h2>Book Here</h2>
+                <p>Ready to go? Well we got you covered, just <a href="https://www.expedia.com/Tokyo.d179900.Destination-Travel-Guides?gclid=CKD2pf2-3MsCFU9cfgodMd0HkA&langid=1033&destinationId=179900&semcid=13172-1&kword=travel_to_tokyo%21e.ZzZz.3510001096527.0.43206860844.travel+to+tokyo.travel_to_tokyo&">click here</a> to check out some great deals on airfare and hotels.</p>
+                <a href="https://www.expedia.com/Tokyo.d179900.Destination-Travel-Guides?gclid=CKD2pf2-3MsCFU9cfgodMd0HkA&langid=1033&destinationId=179900&semcid=13172-1&kword=travel_to_tokyo%21e.ZzZz.3510001096527.0.43206860844.travel+to+tokyo.travel_to_tokyo&"><span class="glyphicon glyphicon-user"></span></a>
+              </div>
+              <div class="col-sm-4 text-blocks">
+                <h2>Not Tokyo?</h2>
+                <p>Maybe Tokyo isn't your thing, or maybe you just want to take our awesome survey again. Just <a href="survey.html">click here</a> to try again.</p>
+                <a href="survey.html"><span class="glyphicon glyphicon-education"></span></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
