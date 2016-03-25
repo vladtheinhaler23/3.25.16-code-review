@@ -32,7 +32,12 @@
 .index {
   background-color: #07BDFF;
 }
-
+/*SURVEY.html*/
+.surveyH1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
 
 /*RADIO*/
 .radioImage {
@@ -96,4 +101,29 @@ input[type='radio'], label{
 .form-contol {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.surveyBtn {
+  margin-top: 100px;
+  margin-bottom: 200px;
+
+}
+#surveySubmit {
+  text-align: center;
+}
+.text-blocks {
+  display: inline-block;
+  border: solid;
+  border-color: black;
+  border-width: 2px;
+  background-color: #D5D9D8;
+  min-height: 200px;
+  max-width: 370px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.glyphicon {
+  font-size: 3em;
+  float: right;
 }
