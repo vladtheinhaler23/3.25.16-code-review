@@ -59,15 +59,47 @@ input[type='radio'], label{
 /*RESULTS*/
 .miami {
   display: none;
+  margin-top: 100px;
+  min-height: 400px;
+  background-image: url("../miami.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border: solid;
+  border-color: black;
 }
 .portland {
   display: none;
+  margin-top: 25px;
+  min-height: 400px;
+  background-image: url("../portland.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border: solid;
+  border-color: black;
 }
 .newYork {
   display: none;
+  margin-top: 25px;
+  min-height: 400px;
+  background-image: url("../newYork.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border: solid;
+  border-color: black;
+}
+.tokyo {
+  display: none;
+  margin-top: 25px;
+  min-height: 400px;
+  background-image: url("../tokyo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border: solid;
+  border-color: black;
 }
 .tokyoContainer {
   display: none;
+
 }
 .miamiContainer {
   display: none;
@@ -80,6 +112,8 @@ input[type='radio'], label{
 }
 .resultsHead {
   display: none;
+  margin-top: 100px;
+  margin-bottom: 10px;
 }
 .tokyo-content {
   display: none;
@@ -110,6 +144,30 @@ input[type='radio'], label{
 #surveySubmit {
   text-align: center;
 }
+#miamiH3 {
+  font-size: 75px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 2px black;
+}
+#portlandH3 {
+  font-size: 75px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 2px black;
+}
+#newYorkH3 {
+  font-size: 75px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 2px black;
+}
+#tokyoH3 {
+  font-size: 75px;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 2px black;
+}
 .text-blocks {
   display: inline-block;
   border: solid;
@@ -117,11 +175,11 @@ input[type='radio'], label{
   border-width: 2px;
   background-color: #D5D9D8;
   min-height: 200px;
-  max-width: 370px;
+  max-width: 368px;
   margin-right: 5px;
   margin-left: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 .glyphicon {
   font-size: 3em;
