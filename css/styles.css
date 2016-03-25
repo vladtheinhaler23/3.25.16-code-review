@@ -1,3 +1,39 @@
+/*INDEX*/
+
+.btn-primary {
+  border-radius: 12px;
+  background-color: #07BDFF
+
+}
+.indexJumbo {
+  margin-top: 100px;
+  min-height: 400px;
+  background-image: url("../jumbo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border: solid;
+  border-color: black;
+
+}
+.indexH3 {
+  margin-bottom: 100px;
+  text-align: justify;
+  color: #C195E2;
+  font-size: 30px;
+  text-shadow: 1px 2px black;
+
+}
+.indexH1 {
+  ext-align: justify;
+  color: #C195E2;
+  font-size: 30px;
+  text-shadow: 1px 2px #C195E2;
+}
+.index {
+  background-color: #07BDFF;
+}
+
+
 /*RADIO*/
 .radioImage {
   max-height: 150px;
