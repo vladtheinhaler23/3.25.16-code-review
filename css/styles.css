@@ -28,10 +28,28 @@ input[type='radio'], label{
 .tokyoContainer {
   display: none;
 }
+.miamiContainer {
+  display: none;
+}
+.portlandContainer {
+  display: none;
+}
+.newYorkContainer {
+  display: none;
+}
 .resultsHead {
   display: none;
 }
 .tokyo-content {
+  display: none;
+}
+.miami-content {
+  display: none;
+}
+.portland-content {
+  display: none;
+}
+.newYork-content {
   display: none;
 }
 /*FORM*/

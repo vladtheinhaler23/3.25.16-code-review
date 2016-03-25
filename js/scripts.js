@@ -24,16 +24,23 @@ $(document).ready(function() {
     if (score <= 30) {
       $(".resultsHead").show();
       $(".miami").show();
+      $(".miamiContainer").show();
+      $(".miami-content").show()
     } else if (score > 30 && score <= 60) {
       $(".resultsHead").show();
       $(".portland").show();
+      $(".portlandContainer").show();
+      $(".portland-content").show()
     } else if (score > 60 && score <= 90) {
       $(".resultsHead").show();
       $(".newYork").show();
+      $(".newYorkContainer").show();
+      $(".newYork-content").show()
     } else if (score > 90 && score <= 120) {
       $(".resultsHead").show();
+      $(".tokyo").show();
       $(".tokyoContainer").show();
-      $(".tokyo-content").show();
+      $(".tokyo-content").show()
     } else {
         alert("Please fill out our surevey to get a destination recommendation.")
         location.reload();
